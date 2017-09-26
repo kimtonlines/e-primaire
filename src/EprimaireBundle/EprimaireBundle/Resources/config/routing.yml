@@ -1,0 +1,3 @@
+eprimaire_homepage:
+    path:     /
+    defaults: { _controller: EprimaireBundle:Default:index }
