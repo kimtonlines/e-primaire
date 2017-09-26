@@ -20,7 +20,7 @@ class UserType extends AbstractType
         /*$builder->add('nom',TextType::class,array('attr'=>array('placeholder'=>'Nom Prenom(s)')))
             ->add('roles',CollectionType::class, array( 'entry_type'    =>  ChoiceType::class,
                 'entry_options' =>  array(  'label'     => false, /* Ajoutez cette ligne */
-                   /*  'choices'   => array(
+                    /* 'choices'   => array(
                         'SUPER ADMINISTRATEUR' => 'ROLE_SUPER_ADMIN',
                         'GERANT' => 'ROLE_GERANT'
                     ))))

@@ -76,6 +76,9 @@ fos_user:
     registration:
         form:
             type: EprimaireBundle\EprimaireBundle\Form\UserType
+    from_email:
+        address:        noreply@ton_domaine.tld 
+        sender_name:    MonSite - Espace membre
 
 
 # EasyAdmin Configuration
@@ -98,4 +101,3 @@ easy_admin:
     site_name: 'e-Primaire'
     formats:
         date: 'd/m/Y'
-
